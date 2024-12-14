@@ -1,1 +1,1 @@
-on local
+from origin
