@@ -5,6 +5,8 @@
 
 # Git 브랜치전략을 통한 배포
 `Github flow`를 통해 `main(master)` 브랜치에 병합될 때 S3로 자동배포
+* [배포페이지](https://matayu-landing-qa.s3.ap-northeast-2.amazonaws.com/index.html)
+
 
 ## Pull Request와 코드리뷰 안내
 Github에 다른 사람이 올린 PR이 올라오면 github에서 또는 로컬 레포지토리로 해당 PR브랜치를 Pull하고 코드를 리뷰해주세요. 깃헙에서 해당 브랜치가 main에 머지되고 나면 main 브랜치를 다시 로컬로 pull하여 로컬 main을 깃허브와 일치시켜주세요.
