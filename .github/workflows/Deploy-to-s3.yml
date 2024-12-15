@@ -22,7 +22,7 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: ap-northeast-2
 
-      # 3. Deploy files to S3
+      # 3. Deploy files in 'webpage' directory to S3
       - name: Deploy to S3
         run: |
-          aws s3 sync ./ s3://matayu-landing-qa --delete
+          aws s3 sync ./webpage s3://matayu-landing-qa --delete
