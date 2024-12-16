@@ -14,3 +14,6 @@ Github에 다른 사람이 올린 PR이 올라오면 github에서 또는 로컬 
 
  이전에 작업해오던 로컬 작업 브랜치에 main을 merge해보아 충돌을 해결한 뒤 작업을 이어서 할 수 있습니다. 로컬 작업 브랜치의 코드가 완료되면 해당 브랜치를 깃허브로 push한뒤 Pull Request를  생성해주세요.
  ![깃PR도식도2](./docs/readme-img/github-pr-2.png)
+
+
+ ppppp
